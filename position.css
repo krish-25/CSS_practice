@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+}
+
+div{
+    width: 100px;
+    height: 100px;
+    background-color: palegreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    border: 5px solid red;
+}
+
+div:nth-of-type(2){
+    background-color: palevioletred;
+    opacity: 0.5;
+    /* static, relative, sticky  */
+    /* absolute, fixed */
+    position: fixed;
+    top: 10px;
+}
