@@ -1,0 +1,23 @@
+#images {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.image {
+    height: 200px;
+    width: 150px;
+    border: 2px dotted black;
+}
+
+section:nth-of-type(1) img{
+    object-fit: contain;
+}
+
+section:nth-of-type(2) img{
+    object-fit: fill;
+}
+
+section:nth-of-type(3) img{
+    object-fit: cover;
+}
