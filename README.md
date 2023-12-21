@@ -10,7 +10,7 @@
   <li><b>CSS Cascade- </b>order of style declaration</li>
   <li><b>Specificity- </b>Inline-styles---------ID--------Class/Attribute--------Element</li>
   <li><b>!important- </b>most important + No calculation</li>
-  <li><b>Inheritance</b></li>
+  <li><b>Inheritance- </b>auto + manual<i>(eg. color: inherit)</i></li>
 </ul>
 <h2>day_01: Position</h2>
 <h5>Element is positioned according to the normal flow of the document</h5>
