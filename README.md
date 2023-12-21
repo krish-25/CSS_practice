@@ -1,5 +1,18 @@
-# CSS_practice
-<h2><b>day_01: Position</b></h2>
+<h1>CSS Practice</h1>
+<h2>Selectors</h2>
+<ul>
+  <li><b>Universal- </b>*</li>
+  <li><b>Pseudo Classes- </b>:active, :checked, :first, :first-child, :hover, :nth-child(), :nth-of-type()</li>
+  <li><b>Pseudo Elements- </b>::after, ::before, ::first-letter, ::first-line, ::selection</li>
+</ul>
+<h2>Styling Concepts</h2>
+<ul>
+  <li><b>CSS Cascade- </b>order of style declaration</li>
+  <li><b>Specificity- </b>Inline-styles---------ID--------Class/Attribute--------Element</li>
+  <li><b>!important- </b>most important + No calculation</li>
+  <li><b>Inheritance</b></li>
+</ul>
+<h2>day_01: Position</h2>
 <h5>Element is positioned according to the normal flow of the document</h5>
 <ul>
   <li>
