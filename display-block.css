@@ -1,0 +1,19 @@
+div{
+    width: 50px;
+    height: 50px;
+    background-color: palegoldenrod;
+    border: 2px solid palevioletred;
+    box-sizing: border-box;
+}
+
+section:nth-of-type(1) div{
+    display: block;
+}
+
+section:nth-of-type(2) div{
+    display: inline;
+}
+
+section:nth-of-type(3) div{
+    display: inline-block;
+}
