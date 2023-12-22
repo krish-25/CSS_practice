@@ -50,4 +50,13 @@
     </ul>
   </li>
 </ul>
-
+<h2>day_02: Image: object-fit</h2>
+<p><b>object-fit: </b> this property sets how the content of a replaced element like &ltimg&gt or &ltvideo&gt, should be resized to fit its container. Setting up &ltimg&gt's width and height set the dimension for image container not the image itself. The actual image can be scaled in different ways using this property to fit into &ltimg&gt's container(or content box).
+<br>
+  <b>By default: "fill"</b>
+</p>
+<ul>
+  <li><b>contain- </b>maintains image's aspect ratio while fitting it into the container</li>
+  <li><b>fill- </b>image will completely fill the container. If aspect ratio doesn't match, the image will be stretched to fit</li>
+  <li><b>cover- </b>image again fills the container completely but maintians its aspect ratio by clipping itself to fit</li>
+</ul>
