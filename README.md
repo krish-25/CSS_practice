@@ -60,3 +60,14 @@
   <li><b>fill- </b>image will completely fill the container. If aspect ratio doesn't match, the image will be stretched to fit</li>
   <li><b>cover- </b>image again fills the container completely but maintians its aspect ratio by clipping itself to fit</li>
 </ul>
+<h2>day_03: Display: block, inline, inline-block</h2>
+<p>
+  - display property sets an element's inner and outer display types
+</p>
+<b>&ltdisplay-outside&gt</b>
+<ul>
+  <li><b>block</b></li>
+  <li><b>inline- </b>have no effect of height, width, vertical-margins and more</li>
+  <li><b>inline-block</b></li>
+</ul>
+
