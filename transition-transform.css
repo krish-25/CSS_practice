@@ -1,0 +1,33 @@
+main{
+    border: 2px dotted black;
+    margin: 10vh auto;
+    width: 501px;
+    box-sizing: border-box;
+}
+
+div{
+    height: 50px;
+    width: 50px;
+    background-color: palegoldenrod;
+    margin-bottom: 1vh;
+}
+
+main:hover div{
+    transform: translateX(500px);
+}
+
+div:nth-last-of-type(1){
+    transition: transform 3s cubic-bezier(0.7, 0, 0.84, 0);
+}
+
+div:nth-last-of-type(2){
+    transition: transform 3s ease-in-out;
+}
+
+div:nth-last-of-type(3){
+    transition: transform 3s cubic-bezier(0.36, 0, 0.66. -0.56);
+}
+
+div:nth-last-of-type(4){
+    transition: transform 3s linear;
+}
