@@ -70,4 +70,22 @@
   <li><b>inline- </b>have no effect of height, width, vertical-margins and more</li>
   <li><b>inline-block</b></li>
 </ul>
-
+<h2>day_04: Transition & Transform</h2>
+<b>Transition</b><br>
+shorthand for-
+<ul>
+  <li>transition-property</li>
+  <li>transition-duration</li>
+  <li>
+    transition-timing-function
+    <ul>
+      <li>easing</li>
+      <li>subic-bezier</li>
+    </ul>
+  </li>
+  <li>transition-delay</li>
+</ul>
+<b><u>Syntax:</u></b><br>
+transition: &ltproperty&gt &ltduration&gt &lttiming-function&gt &ltdelay&gt;
+<br><br>
+<b>Transform- </b>lets you rotate, scale, skew, or translate an element.
