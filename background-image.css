@@ -1,0 +1,40 @@
+div{
+    height: 80vh;
+    width: 70vw;
+    border: 2px solid black;
+    margin: 10vh auto;
+    background-image: url('https://content.jdmagicbox.com/comp/hyderabad/r3/040pxx40.xx40.160721185430.i9r3/catalogue/driven-gachibowli-hyderabad-coffee-shops-ho6uu.jpg');
+}
+
+h2{
+    color: white;
+}
+
+#contain{
+    background-size: contain;
+}
+
+#contain-no-repeat{
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.cover{
+    background-size: cover;
+}
+
+.cover.top{
+    background-position: top;
+}
+
+.cover.cover.left{
+    background-position: left;
+}
+
+.cover.right{
+    background-position: right;
+}
+
+.cover.bottom{
+    background-position: bottom;
+}
