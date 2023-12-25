@@ -97,3 +97,13 @@ transition: &ltproperty&gt &ltduration&gt &lttiming-function&gt &ltdelay&gt;
         <li>background-repeat</li>
         <li>background-position</li>
 </ul>
+<h2>day_06: Animation & @keyframes</h2>
+<b>Animation: </b>shorthand for animation-name, animation-duration, animation-timing-function, animation-delay, animation-iteration-count, animation-direction, animation-fill-mode, animation-play-state, and animation-timeline<br>
+<b>Keyframes: </b>
+@keyframes identifier {<br>
+  0%<b>(to)</b> {---}<br>
+  30% {---}<br>
+  68%,<br>
+  72% {---}<br>
+  100%<b>(from)</b> {---}<br>
+}<br>
