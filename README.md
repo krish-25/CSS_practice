@@ -89,3 +89,11 @@ shorthand for-
 transition: &ltproperty&gt &ltduration&gt &lttiming-function&gt &ltdelay&gt;
 <br><br>
 <b>Transform- </b>lets you rotate, scale, skew, or translate an element.
+<h2>day_05: Background Image: size & position</h2>
+<ul>
+        background: shorthand
+        <li>background-image</li>
+        <li>background-size</li>
+        <li>background-repeat</li>
+        <li>background-position</li>
+</ul>
